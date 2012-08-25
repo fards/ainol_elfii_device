@@ -1,0 +1,16 @@
+diff --git a/g06ref/system.prop b/g06ref/system.prop
+index 4a7f26e..03cbf79 100755
+--- a/g06ref/system.prop
++++ b/g06ref/system.prop
+@@ -87,8 +87,9 @@ ro.amlogic.no.preloadclass=1
+ # App optimization
+ ro.app.optimization=true
+ 
+-
+-persist.sys.timezone=Asia/Shanghai
++#default time zone
++persist.sys.timezone=America/New_York
++#persist.sys.timezone=Asia/Shanghai
+ 
+ # CPU settings
+ ro.has.cpu.setting=true

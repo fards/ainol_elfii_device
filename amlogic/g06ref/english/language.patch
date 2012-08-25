@@ -1,0 +1,15 @@
+diff --git a/g06ref/g06ref.mk b/g06ref/g06ref.mk
+index 68ceb73..57201bb 100755
+--- a/g06ref/g06ref.mk
++++ b/g06ref/g06ref.mk
+@@ -32,8 +32,8 @@ PRODUCT_MANUFACTURER := MID
+ PRODUCT_DEVICE := g06ref
+ PRODUCT_MODEL := ELF-II
+ # For all locales, $(call inherit-product, buid/target/product/languages_full.mk)
+-PRODUCT_LOCALES := zh_CN \
+-	en_US \
++PRODUCT_LOCALES := en_US \
++	zh_CN \
+ 	zh_TW \
+ 	en_GB \
+ 	fr_FR \
